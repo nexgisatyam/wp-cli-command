@@ -1,4 +1,4 @@
-# Linux Commands Cheat Sheet
+# Linux Commands
 
 ## Navigating Directories
 
