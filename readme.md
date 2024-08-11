@@ -3,9 +3,6 @@
 
 # WP-CLI Commands
 
-WP-CLI is a powerful command-line tool for managing WordPress installations. This document provides a list of commonly used WP-CLI commands to help streamline your WordPress development and maintenance processes.
-
-## Basic Setup and Information
 
 - **Display WP-CLI Environment Information**
   ```bash
