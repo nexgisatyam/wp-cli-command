@@ -1,6 +1,6 @@
-Here's the updated `README.md` with the "Search and Replace" section removed:
 
-```markdown
+
+
 # WP-CLI Commands
 
 WP-CLI is a powerful command-line tool for managing WordPress installations. This document provides a list of commonly used WP-CLI commands to help streamline your WordPress development and maintenance processes.
@@ -65,39 +65,7 @@ WP-CLI is a powerful command-line tool for managing WordPress installations. Thi
   ```bash
   wp plugin delete <plugin-slug>
   ```
-
-- **List Installed Themes**
-  ```bash
-  wp theme list
-  ```
-
-- **Install a Theme**
-  ```bash
-  wp theme install <theme-slug>
-  ```
-
-- **Activate a Theme**
-  ```bash
-  wp theme activate <theme-slug>
-  ```
-
-- **Delete a Theme**
-  ```bash
-  wp theme delete <theme-slug>
-  ```
-
-## Database Operations
-
-- **Export the Database to a File**
-  ```bash
-  wp db export
-  ```
-
-- **Import a Database from a File**
-  ```bash
-  wp db import <file>
-  ```
-
+  
 ## User Management
 
 - **List All Users**
@@ -113,30 +81,6 @@ WP-CLI is a powerful command-line tool for managing WordPress installations. Thi
 - **Update a User's Password**
   ```bash
   wp user update <user-id> --user_pass=<new-password>
-  ```
-
-## Content Management
-
-- **List All Posts**
-  ```bash
-  wp post list
-  ```
-
-- **Create a New Post**
-  ```bash
-  wp post create --post_type=<type> --post_title="<title>" --post_content="<content>"
-  ```
-
-- **Delete a Post**
-  ```bash
-  wp post delete <post-id>
-  ```
-
-## Cache Management
-
-- **Flush the WordPress Object Cache**
-  ```bash
-  wp cache flush
   ```
 
 ## Configuration and Debugging
@@ -156,9 +100,5 @@ WP-CLI is a powerful command-line tool for managing WordPress installations. Thi
   wp config set <key> <value>
   ```
 
----
 
-This document covers the most commonly used WP-CLI commands. For more detailed information, refer to the [official WP-CLI documentation](https://wp-cli.org/docs/).
-```
 
-Let me know if you need any more changes!
