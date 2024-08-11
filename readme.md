@@ -1,3 +1,77 @@
+# Linux Commands Cheat Sheet
+
+## Navigating Directories
+
+- `ls`  
+  List files and directories in the current directory.  
+  - `ls -l` : List with detailed information.  
+  - `ls -a` : List all files including hidden files.
+
+- `cd <directory>`  
+  Change directory to `<directory>`.  
+  - `cd ..` : Move up one directory level.  
+
+## File and Directory Operations
+
+- `cp <source> <destination>`  
+  Copy files or directories.  
+  - `cp -r <source> <destination>` : Copy directories recursively.
+
+- `mv <source> <destination>`  
+  Move or rename files or directories.
+
+- `rm <file>`  
+  Remove (delete) files.  
+  - `rm -r <directory>` : Remove directories recursively.
+
+- `mkdir <directory>`  
+  Create a new directory.
+
+- `rmdir <directory>`  
+  Remove an empty directory.
+
+## Viewing and Editing Files
+
+- `cat <file>`  
+  Concatenate and display the contents of a file.
+
+- `nano <file>` or `vim <file>`  
+  Edit a file using the Nano or Vim text editor.
+
+## File Permissions and Ownership
+
+- `chmod <permissions> <file>`  
+  Change file permissions.  
+  - Example: `chmod 755 <file>` sets permissions to rwxr-xr-x.
+
+- `chown <user>:<group> <file>`  
+  Change file owner and group.  
+  - Example: `chown user:group <file>`.
+
+## System Information
+
+- `top`  
+  Display real-time system processes and resource usage.
+
+- `df -h`  
+  Show disk space usage.
+
+- `du -h <directory>`  
+  Show disk usage of a directory.
+
+- `free -h`  
+  Display memory usage.
+
+
+## Searching and Finding Files
+
+- `find <directory> -name <filename>`  
+  Search for files by name.
+
+- `grep <pattern> <file>`  
+  Search for a pattern within a file.
+
+---
 
 
 
