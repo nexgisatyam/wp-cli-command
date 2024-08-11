@@ -9,7 +9,7 @@
 
 - `cd <directory>`  
   Change directory to `<directory>`.  
-  - `cd ..` : Move up one directory level.  
+- `cd ..` : Move up one directory level.  
 
 ## File and Directory Operations
 
